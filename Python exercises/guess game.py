@@ -1,4 +1,4 @@
-import os
+
 import random
 import math
 
@@ -13,7 +13,7 @@ print(secret_number)
 
 
 while(looper):
-    x = input("Keep guessing!")
+    x = input("Keep guessing!  ")
     guess = int (x) 
     if(guess == secret_number):
         print("You have guessed it! ")

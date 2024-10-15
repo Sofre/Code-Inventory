@@ -15,7 +15,7 @@ public class Math_Area_Paramiter { public static void main(String[] args) {
     System.out.println(Area_Circle(x));
     System.out.println("The Perimeter of the circle is : ");
     System.out.println(Perimeter_Circle(x));
-    System.out.println("\s\s\s");
+    System.out.println("\t\t\t");
 
 
     try {TimeUnit.SECONDS.sleep(2);} catch (InterruptedException e) { throw new RuntimeException(e);}
