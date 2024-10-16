@@ -34,7 +34,6 @@ def animation(words):
 #   Replay function --> For the replay option
 def replay():
     anwser=input("Would you like to try again?")
-    print()
     match anwser:
        case 'yes':
           return main()
@@ -108,6 +107,7 @@ def main():
 animation(animation_words)
 time.sleep(2)
 print()
+#   Main Non-Linear Compile
 main()
 
 
