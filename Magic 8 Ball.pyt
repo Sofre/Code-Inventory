@@ -28,8 +28,10 @@ def loading_bar(points):
 #   Animation for the starting logo --> Uses a counter to print each character in a timed fashion
 def animation(words):
  for counter in words:
-    time.sleep(1)
+    #time.sleep(1)
     print(counter)
+
+    
     
 #   Replay function --> For the replay option
 def replay():
@@ -47,6 +49,18 @@ def replay():
 
 #   Animation words --> consists of characters for the animation function
 animation_words = ("M","A","G","I","C","  ","8","  ","B","A","L","L")
+magic_8_ball_art = r"""
+        _____  
+      .'     '.  
+     /  _   _  \ 
+    |  (o) (o)  | 
+    |     (_)   | 
+    |  \_____/  | 
+     \         /  
+      '._____.'
+"""
+
+
 
 #   Random anwsers --> random anwsers for the game
 random_anwsers = (
@@ -105,6 +119,7 @@ def main():
 
 #   LoadUp Animation 
 animation(animation_words)
+print(magic_8_ball_art)
 time.sleep(2)
 print()
 #   Main Non-Linear Compile

@@ -11,3 +11,4 @@ def index_right(a,x):
 a = [1,2,3,4]
 print(index_left(a,2))
 print(index_right(a,2))
+    
