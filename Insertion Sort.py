@@ -18,8 +18,8 @@ def search_engine(list):
 
 list = []
 
-for i in range(10):
-    list.append(random.randint(1,10))
+for i in range(4):
+    list.append(random.randint(1,4))
 
 
 print(list)
